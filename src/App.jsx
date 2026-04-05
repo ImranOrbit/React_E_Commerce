@@ -13,6 +13,7 @@ import Register from "./Auth/Registration";
 import ForgotPassword from "./Auth/ForgotPassword";
 import Cart from "./Component/Cart/Cart";
 import Profile from "./Auth/Profile";
+import OrdersPage from "./Component/Orders/OrdersPage";
 
 function App() {
   return (
@@ -48,6 +49,8 @@ function App() {
         <Route path="/products" element={<Products />} />
 
         <Route path="/cart" element={<Cart />} />
+
+        <Route path="/orders" element={<OrdersPage />} />
       </Routes>
       <Footer />
     </BrowserRouter>
